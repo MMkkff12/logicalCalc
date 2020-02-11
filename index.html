@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logical Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="alert alert-primary" style="text-align: center;"></body>
+
+    <div>
+        <h2 class="alert alert-secondary">Logical Calculator</h2>
+
+    </div>
+
+    <div class="alert alert-danger">
+        <h3 class="alert alert-heading" id="output" ></h3>
+
+        </h3>
+
+
+    </div>
+
+
+    <div>
+        <input type="text" name="tbool" id="tbool" placeholder="enter true or false" style="text-align: center;"     >
+        <input type="text" name="fbool" id="fbool" placeholder="enter true or false"  style="text-align: center;"   >
+
+
+    </div>
+
+    <div>
+        <button onclick="and()"> <span class="badge badge-danger"> and </span>
+        
+        </button>
+
+        <button onclick="or()"> <span class="badge badge-danger"> or </span>
+            
+        </button>
+        
+        <button onclick="not()"> <span class="badge badge-danger"> not </span>
+            
+        </button>
+    </div>
+
+
+
+
+    <script src="logicalCalc.js"></script>
+    
+</body>
+</html>
